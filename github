@@ -1,0 +1,9 @@
+git clone https://github.com/***/*** #从远程仓库中创建一个本地仓库
+touch *** #创建文件夹，并向文件夹里写入想要的代码
+git add *** #将该文件夹加入缓存区
+         git status #查看目录和暂存区的状态
+git config --global user.email "1559986928@qq.com"
+git config --global user.name "jack-70"  #设置自己的身份信息，写入自己注册的github账号的邮箱和自己的github的账号名字
+git commit -m '***'  #执行一次提交（加入到版本区）
+git remote add littlename https://github.com/***/***
+git push little master    #本地仓库提交到远端仓库
