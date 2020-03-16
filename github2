@@ -1,0 +1,7 @@
+git clone https://github.com/***/***
+touch ***
+git add ***
+git config --global user.email "1559986928@qq.com"
+git config --global user.name "jack-70"
+git commit -m '***'
+git push                     #将本地文件加入远端文件的另一种方法，前面都一样 
